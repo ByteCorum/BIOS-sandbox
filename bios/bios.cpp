@@ -346,7 +346,7 @@ void DrawControls(string key, string description) {
 	cout << description;
 }
 
-void DrawHelp() 
+void DrawHelp()
 {
 	Goto(RIGHT_MAIN+6, TOP_MAIN + 2);
 	cout << "Item Specific Help";
@@ -355,7 +355,7 @@ void DrawHelp()
 	cout << "<Enter> to select.";
 }
 
-void UpdateHelp(bool state) 
+void UpdateHelp(bool state)
 {
 	Goto(RIGHT_MAIN+2, TOP_MAIN_SECOND + 2);
 	cout << "                                ";
@@ -459,7 +459,7 @@ int main()
 	for (int i = 8; i <= 50; i += 2) { buff.push_back(to_string(i) + ".0x"); }
 	menues[1].Push_item("CPU: System Frequency Multiple", buff);	buff.clear();
 	int y = 30;
-	for (int i = 120; i <= 200; i += 4) 
+	for (int i = 120; i <= 200; i += 4)
 	{
 		y += 2;
 		buff.push_back(to_string(i) + "/"+to_string(y));
