@@ -1,21 +1,10 @@
 ![logo](assets/readme/logo.png)
 
----
+# Basic Input Output System sandbox
 
-### Basic Input Output System sandbox. You can change any parameters and see how the computer behaves without affecting your main machine. Written in C++.
+This project was made for people who want to learn how bios settings work and how to operate with them without braking your pc.
 
-⭐Please, star this repo if it was helpful⭐
-
-<p>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-  <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white">
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white">
-  <img src="https://img.shields.io/badge/build-passing-76B900?style=for-the-badge&logo=&logoColor=whit">
-  <img src="https://img.shields.io/badge/tests-100/100-76B900?style=for-the-badge&logo=&logoColor=whit">
-  <img src="https://img.shields.io/badge/code quality-A-76B900?style=for-the-badge&logo=&logoColor=whit">
-  <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge&logo=&logoColor=whit">
-  <img src="https://img.shields.io/badge/BIOS-v1.0.0-blue?style=for-the-badge&logo=&logoColor=whit">
-</p>
+So what this project apparently does, it gives you an ability to tweak in real time various bios settings and see how they affect the system
 
 ---
 
@@ -25,12 +14,8 @@
 
 ---
 
-### 🖼️My BIOS Sandbox
+### 🖼️BIOS Sandbox
 
 ![logo](assets/readme/bios.png)
-
----
-
-The plan is to create a full-functioning tool for people who learn how to use BIOS tools.
 
 ---
