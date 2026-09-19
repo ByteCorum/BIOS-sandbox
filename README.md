@@ -19,3 +19,15 @@ So what this project apparently does, it gives you an ability to tweak in real t
 ![logo](assets/readme/bios.png)
 
 ---
+
+### 📨Contact
+
+Please look in [profile](https://github.com/ByteCorum) for contact possibilities  
+
+---
+
+### 💸Support
+
+Please look in [profile](https://github.com/ByteCorum) for support possibilities  
+
+---
