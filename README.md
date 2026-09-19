@@ -1,9 +1,11 @@
-![logo](https://github.com/ByteCorum/BIOS/blob/main/imgs/LOGO.png?raw=true)
+![logo](assets/readme/logo.png)
 
 ---
+
 ### Basic Input Output System sandbox. You can change any parameters and see how the computer behaves without affecting your main machine. Written in C++.
 
 ⭐Please, star this repo if it was helpful⭐
+
 <p>
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
   <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white">
@@ -18,13 +20,17 @@
 ---
 
 ### 🖼️Original BIOS
-![logo](https://github.com/ByteCorum/BIOS/blob/main/imgs/obios.png?raw=true)
+
+![logo](assets/readme/original-bios.png)
 
 ---
+
 ### 🖼️My BIOS Sandbox
-![logo](https://github.com/ByteCorum/BIOS/blob/main/imgs/shoot%201.png?raw=true)
+
+![logo](assets/readme/bios.png)
 
 ---
+
 The plan is to create a full-functioning tool for people who learn how to use BIOS tools.
 
 ---
