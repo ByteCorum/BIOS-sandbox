@@ -1,0 +1,21 @@
+name: vss-build-check x64 release
+
+on:
+    push:
+        branches: [stable]
+    pull_request:
+        branches: [stable]
+
+jobs:
+    build:
+        runs-on: windows-latest
+
+        steps:
+            - uses: actions/checkout@v7
+
+            - name: Setup MSVC
+              uses: ilammy/msvc-dev-cmd@v1
+
+            - name: Building project
+              run: |
+                  msbuild bios.sln -t:Rebuild -p:Configuration=Release -p:Platform=x64
