@@ -10,9 +10,9 @@ We take the security of this project seriously. If you believe you have found a 
 
 The preferred channel is private vulnerability reporting:
 
-[Report a vulnerability](https://github.com/{VAR_USERNAME}/{VAR_REPO}/security/advisories/new)
+[Report a vulnerability](https://github.com/ByteCorum/BIOS-sandbox/security/advisories/new)
 
-This creates a private communication channel between you and the maintainers. Alternatively, contact owners with the details via {VAR_CONTACT_LINK}.
+This creates a private communication channel between you and the maintainers. Alternatively, contact owners with the details via contact option provided in [profile](https://github.com/ByteCorum).
 
 You should receive an acknowledgment within 72 hours. If you do not, please follow up to confirm we received the original report.
 
@@ -27,11 +27,6 @@ Please include as much of the following as possible:
 - Any special configuration required to reproduce the issue
 
 ## Supported Versions
-
-| Version               | Supported |
-| --------------------- | --------- |
-| {VAR_VERSION_MAJOR}.x | Yes       |
-| < {VAR_VERSION_MAJOR} | No        |
 
 Only the latest major release receives security fixes.
 
