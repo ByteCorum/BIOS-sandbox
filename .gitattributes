@@ -238,6 +238,7 @@ Jenkinsfile    text
 # Make data/config languages count toward statistics
 *.sql   linguist-detectable
 *.yaml  linguist-detectable
+*.markdown linguist-detectable
 
 ###############################################################################
 # export-ignore - excluded from `git archive` release tarballs
