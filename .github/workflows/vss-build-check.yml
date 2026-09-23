@@ -1,0 +1,34 @@
+name: Visual Studio x64 release Build Check
+
+on:
+    push:
+        branches: [stable]
+    pull_request:
+        branches: [stable]
+
+permissions:
+    contents: read
+
+jobs:
+    build:
+        name: Visual Studio x64 release Build Check
+        runs-on: windows-latest
+
+        steps:
+            - name: Check out code from GitHub
+              uses: actions/checkout@v7
+
+            - name: Setup MSVC compiler
+              uses: ilammy/msvc-dev-cmd@v1
+
+            - name: Building project
+              run: |
+                  msbuild src/bios.sln -t:Rebuild -p:Configuration=Release -p:Platform=x64
+                  tree /f
+
+            - name: Archive artifact
+              uses: actions/upload-artifact@v4
+              with:
+                  name: bios_${{ github.sha:0:7 }}
+                  path: |
+                      src/built/DragonBurn-usermode.exe
