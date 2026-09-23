@@ -43,7 +43,6 @@ So what this project apparently does, it gives you an ability to tweak in real t
   <li><a href="#overview">Overview</a></li>
   <li><a href="#contributing">Contributing</a></li>
   <li><a href="#known-issues">Known Issues</a></li>
-  <li><a href="#troubleshooting">Troubleshooting</a></li>
   <li><a href="#license">License</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#support-the-project">Support the Project</a></li>
@@ -98,25 +97,6 @@ or scheduled to be; anything not listed is unknown, so please
 
 > [!TIP]
 > Before concluding something is a bug, check Troubleshooting below, as some behavior, that looks broken not depends on this project.
-
-<p align="right">
-  <a href="#readme-top" aria-label="Back to top">
-    <img alt="Back to top" src="https://img.shields.io/badge/Back_to_top-282a2e?style=flat-square">
-  </a>
-</p>
-
----
-
-<h3><a id="troubleshooting"></a>Troubleshooting</h3>
-
-<h4>Symptom name</h4>
-
-**Cause:** one or two sentences on why this happens.
-
-**Fix:**
-
-1. Configuration steps for the external component, copy-pasteable
-2. Verification command or check
 
 <p align="right">
   <a href="#readme-top" aria-label="Back to top">
