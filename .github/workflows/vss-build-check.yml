@@ -26,9 +26,13 @@ jobs:
                   msbuild src/bios.sln -t:Rebuild -p:Configuration=Release -p:Platform=x64
                   tree /f
 
+            - name: Set outputs
+              id: vars
+              run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+
             - name: Archive artifact
               uses: actions/upload-artifact@v4
               with:
-                  name: bios_${{ github.sha:0:7 }}
+                  name: bios_${{ steps.vars.outputs.sha_short }}
                   path: |
                       src/built/DragonBurn-usermode.exe
