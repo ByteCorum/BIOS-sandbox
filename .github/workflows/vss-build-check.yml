@@ -18,8 +18,8 @@ jobs:
             - name: Check out code from GitHub
               uses: actions/checkout@v7
 
-            - name: Setup MSVC compiler
-              uses: ilammy/msvc-dev-cmd@v1
+            - name: Setup MSBuild
+              uses: microsoft/setup-msbuild@v3
 
             - name: Building project
               shell: bash
