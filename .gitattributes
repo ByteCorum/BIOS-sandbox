@@ -236,9 +236,9 @@ Jenkinsfile    text
 *.svg   linguist-language=XML
 
 # Make data/config languages count toward statistics
-*.sql   linguist-detectable
-*.yaml  linguist-detectable
-*.markdown linguist-detectable
+*.sql   linguist-detectable=true
+*.yaml  linguist-detectable=true
+*.markdown linguist-detectable=true
 
 ###############################################################################
 # export-ignore - excluded from `git archive` release tarballs
