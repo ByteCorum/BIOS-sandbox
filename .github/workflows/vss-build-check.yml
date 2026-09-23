@@ -24,7 +24,7 @@ jobs:
             - name: Building project
               shell: bash
               run: |
-                  msbuild src/bios.sln -t:Rebuild -p:Configuration=Release -p:Platform=x64
+                  msbuild.exe src/bios.sln -t:Rebuild -p:Configuration=Release -p:Platform=x64
 
             - name: Verify build outputs
               shell: bash
